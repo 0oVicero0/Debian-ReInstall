@@ -14,13 +14,15 @@ Not suitable for OPENVZ.
 --------------------------------------------------------------    
     
 # Usage
+```
 bash DebianNET.sh       -d/--debian/--ubuntu [Dist Version Name]
                         -v/--ver [32/i386|64/amd64]
                         --mirror '[Mirror Server]'
                         -a/-m
+```
                         
 
-Dists
+```
 > -----------------------------------------    
 > | Dists   |  Version    |  Version Name    
 > -----------------------------------------    
@@ -35,6 +37,6 @@ Dists
 > |         |   16.10     | yakkety       
 > |         |   17.04     | zesty       
 > -----------------------------------------      
-
+```
 
 
