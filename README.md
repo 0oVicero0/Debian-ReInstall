@@ -54,5 +54,5 @@ Then
 bash DebianNET.sh -d trusty -v i386 -a
 ```
 ```
-bash DebianNET.sh -d stretch -v amd64 -a
+bash DebianNET.sh -d stretch -v amd64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 ```
