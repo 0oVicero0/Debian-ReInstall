@@ -41,5 +41,18 @@ bash DebianNET.sh       -d/--debian/--ubuntu [Dist Version Name]
 |         |   17.04     | zesty         |
 -----------------------------------------      
 ```
+--------------------------------------------------------------    
+--------------------------------------------------------------    
 
-
+# Example
+First
+```
+wget --no-check-certificate -qO DebianNET.sh 'https://moeclub.org/attachment/LinuxShell/DebianNET.sh' && chmod -x DebianNET.sh
+```
+Then
+```
+bash DebianNET.sh -d trusty -v i386 -a
+```
+```
+bash DebianNET.sh -d stretch -v amd64 -a
+```
